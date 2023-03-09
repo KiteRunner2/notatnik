@@ -8,7 +8,6 @@ export default function App() {
         <title>Notatnik</title>
       </head>
       <body>
-        Hello world
         <Outlet />
         <LiveReload />
       </body>
