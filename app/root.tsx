@@ -1,4 +1,4 @@
-import { LiveReload, Outlet } from "@remix-run/react";
+import { LiveReload, Outlet, Scripts } from "@remix-run/react";
 
 export default function App() {
   return (
@@ -8,6 +8,7 @@ export default function App() {
         <title>Notatnik</title>
       </head>
       <body>
+        <Scripts />
         <Outlet />
         <LiveReload />
       </body>
